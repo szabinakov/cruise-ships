@@ -5,8 +5,8 @@ class Ship {
     setSail() {
         this.currentPort = null;
     }
-    dock(port) {
-        this.currentPort = port;
+    dock(newport) {
+        this.currentPort = newport;
     }
 }
 
