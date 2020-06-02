@@ -10,9 +10,9 @@ describe('Port', () => {
 
         beforeEach(() => {
             port = new Port('Dover');
-            ship = {};
-            titanic = {};
-            queenMary = {};
+            ship = jest.fn();
+            titanic = jest.fn();
+            queenMary = jest.fn();
         })
         it('exsists as Object', () => {
             expect(new Port()).toBeInstanceOf(Object);
