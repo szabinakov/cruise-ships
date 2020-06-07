@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^7.1.0",
     "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }

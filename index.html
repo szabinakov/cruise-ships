@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cruise Ships</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form id='container-of-portcreater'>
+        <label for='portcreator'>Add Port</label>
+        <input type='text' id='portcreator'>
+        <button onclick="createNewPort()">Add</button>
+    </form>
+
+    <div id='container-of-displaymessage'>
+    <div id='current-port'>Current Port: New York City
+    </div>
+    <div id='next-port'>Next Port: Grand Turk</div>
+    </div>
+
+
+    <div id='viewport'>
+        <div id='ports'>    
+        </div>
+        <div id='ship'>
+        </div>
+        <button id='sailbutton'>Set Sail!</button>
+    </div>
+    <script src='src/controller.js'></script>
+    <script src='src/Port.js'></script>
+    <script src='src/Itinerary.js'></script>
+    <script src='src/Ship.js'></script>
+    <script>
+        
+        const itinerary = new Itinerary([]);
+        const ship = new Ship(itinerary);
+        const controller = new Controller(ship);
+
+        controller.renderPorts(itinerary.ports);
+        controller.renderShip();
+        
+    </script>
+</body>
+</html>
