@@ -1,9 +1,9 @@
 # Cruise-Ship
 _Create your own Cruise Ship :)_
 
-<p align="center">
-  <img src='CShip.png>
-</p>
+
+![](CShip.png)
+
 
 ## Built With
 + JavaScript
