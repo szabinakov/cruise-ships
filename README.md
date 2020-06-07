@@ -2,7 +2,7 @@
 _Create your own Cruise Ship :)_
 
 <p align="center">
-![](CShip.png)
+  <img src='CShip.png>
 </p>
 
 ## Built With
