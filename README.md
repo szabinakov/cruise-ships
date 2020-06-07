@@ -1,12 +1,12 @@
 # Cruise-Ship
 _Create your own Cruise Ship :)_
 
-
+<p align="center">
 ![](CShip.png)
-
+</p>
 
 ## Built With
-1. JavaScript
-1. HTML
-1. CSS
-1. Jest
++ JavaScript
++ HTML
++ CSS
++ Jest
