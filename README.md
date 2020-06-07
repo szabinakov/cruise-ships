@@ -1,2 +1,2 @@
 #Cruise-Ship
-![](CHip.png)
+![](CShip.png)
