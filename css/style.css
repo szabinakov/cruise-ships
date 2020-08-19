@@ -70,7 +70,8 @@ body {
     position: fixed;
     height: 100px;
     width: 640px;
-    margin-top: -180px;
+    margin-top: -400px;
+    border: 5px solid black;
     font-family: 'Press Start 2P', cursive;
 }
 #current-port, #next-port {
@@ -78,11 +79,14 @@ body {
 }
 #container-of-portcreater {
     background-color: white;
-    height: 200px;
+    height: 100px;
     width: 200px;
     position: fixed;
-    margin-left: -500px;
-    border: 10px solid black;
+    margin-left: -900px;
+    border: 5px solid black;
     font-family: 'Press Start 2P', cursive;
 }
-label {}
+
+#portcreator {
+    width: 180px;
+}
